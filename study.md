@@ -12,6 +12,8 @@ go build
 
 我的配置文件，其他配置，按自己账号配置ASR TTS LLM
 
+```
+
 # 服务器基础配置(Basic server configuration)
 server:
   # 服务器监听地址和端口(Server listening address and port)
@@ -49,3 +51,6 @@ web:
   websocket: ws://127.0.0.1:8000
   vision: http://127.0.0.1:8080/api/vision
   activate_text: "Amine AI Chat" # 发送激活码时携带的文本
+
+```
+
